@@ -42,3 +42,11 @@ html, body, canvas {
 	src: url('fonts/rifficfree-bold.ttf') format('truetype');
 }
 
+*:not(input):not(textarea) {
+	-moz-user-select: -moz-none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-o-user-select: none;
+	-ms-user-select: none;
+	user-select: none
+	}
